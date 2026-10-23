@@ -19,9 +19,10 @@ main{
 }
 #personagens{
     width: 100%;
-    height: 30vh;
+    height: auto;
     float: left;
-    background: green;
+    background: #ccc;
+    padding-bottom: 3vh;
 }
 .personagem{
     width: 15%;
@@ -40,10 +41,26 @@ main{
     width: auto;
     filter: grayscale(100%);
     transition: filter 0.5s ease-in-out;
-} 
-    .personagem img:hover{
-        filter: grayscale(0%);
-    }
+}
+.personagem img:hover{
+    filter: grayscale(0%);
+}
+#nomes-persona{
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: darkmagenta;
+}
+#nomes-persona h2{
+    width: 15%;
+    /* background: #ffff; */
+    float: left;
+    margin-left: 4.16%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8d0000;
+}
 #video{
     width: 100%;
     height: 50vh;
